@@ -23,14 +23,14 @@ public class MainActivity extends AppCompatActivity {
 
     private List<Character> getCharacters(){
         ArrayList <Character> characters= new ArrayList<>();
-        characters.add(new Character("Burger", R.drawable.burger));
-        characters.add(new Character("Chicken", R.drawable.chicken));
-        characters.add(new Character("Fish", R.drawable.fish));
+        characters.add(new Character("Bacon Mushroom Burgers", R.drawable.burger));
+        characters.add(new Character("Roasted Half Chicken", R.drawable.chicken));
+        characters.add(new Character("Fish Fillet", R.drawable.fish));
         characters.add(new Character("French Fries", R.drawable.fries));
-        characters.add(new Character("Italian Salad", R.drawable.italian_salad));
-        characters.add(new Character("Pasta", R.drawable.pasta));
-        characters.add(new Character("Pizza", R.drawable.pizza));
-        characters.add(new Character("Steak", R.drawable.steak));
+        characters.add(new Character("Famous Southern Salad", R.drawable.italian_salad));
+        characters.add(new Character("Double Elbow Pasta", R.drawable.pasta));
+        characters.add(new Character("Chicken BBQ Pizza", R.drawable.pizza));
+        characters.add(new Character("Steak With Mushroom", R.drawable.steak));
 
         /*
         characters.add(new Character("Burger", R.drawable.burger, "100"));
