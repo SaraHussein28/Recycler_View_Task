@@ -50,15 +50,28 @@
         android:fontFamily="sans-serif-medium"
         android:textColor="#222222"
         android:id="@+id/character_name_label"
-        android:layout_width="210dp"
+        android:layout_width="195dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="15dp"
-      android:layout_marginTop="5dp"
-        android:textSize="20sp"
-        tools:text="Bacon Mushroom Burgers."
-
+        android:layout_marginTop="5dp"
+        android:textSize="18sp"
+        tools:text="Bacon Mushroom ."
         app:layout_constraintStart_toEndOf="@id/plus_sign"
         app:layout_constraintTop_toTopOf="@id/image_card_view" />
+
+    <TextView
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#393939"
+        android:id="@+id/dish_description"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="12.5sp"
+        tools:text="here is the space where description goes.hey, please write you dish description here"
+        app:layout_constraintStart_toStartOf="@id/plus_sign"
+        app:layout_constraintTop_toBottomOf="@id/character_name_label" />
+
+
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

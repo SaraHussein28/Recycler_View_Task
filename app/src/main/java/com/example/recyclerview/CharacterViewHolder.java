@@ -13,6 +13,7 @@ public class CharacterViewHolder extends RecyclerView.ViewHolder implements View
 
     private final ImageView charImg;
     private final TextView charName;
+    private  final TextView description;
  //   private final TextView price;
 
     public CharacterViewHolder(@NonNull View itemView) {
@@ -20,6 +21,7 @@ public class CharacterViewHolder extends RecyclerView.ViewHolder implements View
 
         charImg = itemView.findViewById(R.id.character_img);
         charName = itemView.findViewById(R.id.character_name_label);
+        description = itemView.findViewById(R.id.dish_description);
    //     price = itemView.findViewById(R.id.price_data);
         itemView.setOnClickListener(this);
     }
@@ -27,6 +29,7 @@ public class CharacterViewHolder extends RecyclerView.ViewHolder implements View
     public void populateCharacterInfo(Character character){
     charName.setText(character.getName());
     charImg.setImageResource(character.getImageSrc());
+    description.setText(character.getDescription());
    // price.setText(character.getPrice());
     }
 
